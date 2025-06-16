@@ -34,7 +34,7 @@ class HomePage extends StatelessWidget {
                   decoration: InputDecoration(
                     labelText: "Email",
                     labelStyle: const TextStyle(color: Colors.teal),
-                    hintText: "Email or Password",
+                    hintText: "Email or username ",
                     hintStyle: const TextStyle(color: Colors.black),
                     prefixIcon: const Icon(Icons.email),
 
@@ -86,7 +86,6 @@ class HomePage extends StatelessWidget {
                       horizontal: 20,
                     ),
                   ),
-                  obscureText: true, // For password field
                 ),
                 const SizedBox(height: 20),
                 TextField(
