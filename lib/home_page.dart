@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
             clipper: WaveClipper(),
             child: Container(
               height: 200,
-              color: Colors.teal,
+              color: Colors.deepOrange,
               alignment: Alignment.center,
               child: const Text(
                 "Welcome",
