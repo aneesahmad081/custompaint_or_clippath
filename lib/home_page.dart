@@ -42,7 +42,7 @@ class HomePage extends StatelessWidget {
                     border: const OutlineInputBorder(
                       borderRadius: BorderRadius.all(Radius.circular(10)),
                       borderSide: BorderSide(
-                        color: Colors.teal, // Border color
+                        color: Colors.black, // Border color
                         width: 2.0, // Border width
                         style: BorderStyle
                             .solid, // Border style: solid/dashed/etc.
